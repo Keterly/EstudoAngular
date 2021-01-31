@@ -1,0 +1,56 @@
+.form-register{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.register-content h1{
+    color: white;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+.register-content p{
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.register-content{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.input-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-register input{
+    width: 60%;
+    height: 40px;
+    border: none;
+}
+
+.input-register button{
+    margin-left: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1023px){
+    
+    .form-register{
+        grid-template-columns: 1fr;
+    }
+    .register-content{
+        margin-left: 20px;
+    }
+    .register-content p{
+        text-align: center;
+    }
+}
